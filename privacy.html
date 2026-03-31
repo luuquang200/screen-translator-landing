@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy — Screen Translator</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #1a1a1a; background: #fff; }
+    nav { display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; border-bottom: 1px solid #eee; }
+    .logo { font-size: 20px; font-weight: 700; color: #2563eb; text-decoration: none; }
+    .nav-link { text-decoration: none; color: #555; font-size: 14px; }
+    .container { max-width: 740px; margin: 0 auto; padding: 60px 24px; }
+    h1 { font-size: 36px; font-weight: 800; margin-bottom: 8px; }
+    .updated { font-size: 14px; color: #888; margin-bottom: 40px; }
+    .highlight { background: #eff6ff; border-left: 4px solid #2563eb; padding: 20px 24px; border-radius: 0 8px 8px 0; margin-bottom: 32px; }
+    .highlight p { margin: 0; font-size: 15px; color: #1d4ed8; line-height: 1.6; }
+    h2 { font-size: 20px; font-weight: 700; margin: 36px 0 12px; }
+    p { font-size: 15px; color: #444; line-height: 1.8; margin-bottom: 14px; }
+    ul { padding-left: 20px; margin-bottom: 14px; }
+    li { font-size: 15px; color: #444; line-height: 1.8; margin-bottom: 6px; }
+    a { color: #2563eb; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 24px; font-size: 14px; }
+    th { background: #f8fafc; padding: 12px 16px; text-align: left; font-weight: 600; border: 1px solid #e5e7eb; }
+    td { padding: 12px 16px; border: 1px solid #e5e7eb; color: #444; vertical-align: top; }
+    .contact-box { background: #f8fafc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 28px; margin-top: 40px; text-align: center; }
+    .contact-box h3 { font-size: 18px; font-weight: 700; margin-bottom: 8px; }
+    .contact-box p { margin: 0; font-size: 15px; color: #555; }
+    footer { background: #1a1a1a; color: #aaa; text-align: center; padding: 32px 24px; font-size: 13px; margin-top: 60px; }
+    footer a { color: #aaa; text-decoration: none; margin: 0 12px; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="index.html">🌐 Screen Translator</a>
+  <a class="nav-link" href="index.html">← Back to Home</a>
+</nav>
+
+<div class="container">
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: March 2026</p>
+
+  <div class="highlight">
+    <p>🔒 <strong>Short version:</strong> We only process the specific screen region you select. We never access your full screen, browsing history, or any other personal data. Only PRO users share their email address, used solely for license activation.</p>
+  </div>
+
+  <h2>1. Who We Are</h2>
+  <p>Screen Translator is a Chrome browser extension developed and maintained independently. For privacy-related questions, contact us at <a href="mailto:luungocquang2002@gmail.com">luungocquang2002@gmail.com</a>.</p>
+
+  <h2>2. What Data We Collect</h2>
+  <p>We collect the minimum data necessary to provide our service:</p>
+
+  <table>
+    <tr>
+      <th>Data</th>
+      <th>Who</th>
+      <th>Why</th>
+      <th>Stored?</th>
+    </tr>
+    <tr>
+      <td>Selected screen region (image)</td>
+      <td>All users</td>
+      <td>OCR text extraction and translation</td>
+      <td>No — processed and discarded immediately</td>
+    </tr>
+    <tr>
+      <td>Device ID (randomly generated UUID)</td>
+      <td>All users</td>
+      <td>Track monthly free tier usage (20 captures/month)</td>
+      <td>Yes — stored in our backend database</td>
+    </tr>
+    <tr>
+      <td>IP address</td>
+      <td>All users</td>
+      <td>Rate limiting and abuse prevention</td>
+      <td>Yes — stored in our backend database</td>
+    </tr>
+    <tr>
+      <td>Email address</td>
+      <td>PRO users only</td>
+      <td>License key activation and customer support</td>
+      <td>Yes — stored in our backend database</td>
+    </tr>
+    <tr>
+      <td>License key</td>
+      <td>PRO users only</td>
+      <td>Verify PRO subscription status</td>
+      <td>Yes — stored in our backend database</td>
+    </tr>
+  </table>
+
+  <h2>3. What We Never Collect</h2>
+  <ul>
+    <li>Your full screen or anything outside the region you select</li>
+    <li>Your browsing history or visited URLs</li>
+    <li>Passwords or authentication credentials</li>
+    <li>Payment information (handled entirely by LemonSqueezy)</li>
+    <li>Location data or GPS coordinates</li>
+    <li>Mouse clicks, keystrokes, or user activity</li>
+    <li>Any data from pages you visit without triggering the extension</li>
+  </ul>
+
+  <h2>4. How We Use Your Data</h2>
+  <ul>
+    <li><strong>Screen region image:</strong> Sent to our OCR provider (Azure Computer Vision) to extract text, then immediately discarded. Never stored or used for any other purpose.</li>
+    <li><strong>Device ID:</strong> Used only to count your monthly free captures and reset them at the start of each month.</li>
+    <li><strong>IP address:</strong> Used only for rate limiting to prevent abuse of our service.</li>
+    <li><strong>Email address:</strong> Used only to verify your PRO license and provide customer support. Never used for marketing without explicit consent.</li>
+  </ul>
+
+  <h2>5. Third-Party Services</h2>
+  <p>We use the following third-party services to provide our functionality:</p>
+  <table>
+    <tr>
+      <th>Service</th>
+      <th>Purpose</th>
+      <th>Data Shared</th>
+      <th>Privacy Policy</th>
+    </tr>
+    <tr>
+      <td>Azure Computer Vision</td>
+      <td>OCR text extraction</td>
+      <td>Selected screen region image</td>
+      <td><a href="https://privacy.microsoft.com" target="_blank">Microsoft Privacy</a></td>
+    </tr>
+    <tr>
+      <td>MyMemory / Google Translate</td>
+      <td>Text translation</td>
+      <td>Extracted text only</td>
+      <td><a href="https://policies.google.com/privacy" target="_blank">Google Privacy</a></td>
+    </tr>
+    <tr>
+      <td>LemonSqueezy</td>
+      <td>Payment processing</td>
+      <td>Email, payment info (PRO users)</td>
+      <td><a href="https://www.lemonsqueezy.com/privacy" target="_blank">LemonSqueezy Privacy</a></td>
+    </tr>
+    <tr>
+      <td>Supabase</td>
+      <td>Database hosting</td>
+      <td>Device ID, IP, email (PRO users)</td>
+      <td><a href="https://supabase.com/privacy" target="_blank">Supabase Privacy</a></td>
+    </tr>
+  </table>
+
+  <h2>6. Data Retention</h2>
+  <ul>
+    <li><strong>Screen region images:</strong> Never stored — discarded immediately after OCR processing</li>
+    <li><strong>Device ID and request counts:</strong> Reset monthly, deleted upon request</li>
+    <li><strong>IP address:</strong> Reset monthly, deleted upon request</li>
+    <li><strong>PRO user email and license:</strong> Retained while subscription is active, deleted within 30 days of cancellation upon request</li>
+  </ul>
+
+  <h2>7. Data Sharing</h2>
+  <p>We do not sell, rent, or share your personal data with third parties except:</p>
+  <ul>
+    <li>The third-party services listed above, solely to provide our service</li>
+    <li>When required by law or to protect our legal rights</li>
+  </ul>
+  <p>We will never sell your data to advertisers or data brokers.</p>
+
+  <h2>8. Your Rights</h2>
+  <p>You have the right to:</p>
+  <ul>
+    <li><strong>Access:</strong> Request a copy of data we hold about you</li>
+    <li><strong>Delete:</strong> Request deletion of your data at any time</li>
+    <li><strong>Correct:</strong> Request correction of inaccurate data</li>
+    <li><strong>Opt out:</strong> Uninstall the extension to stop all data collection immediately</li>
+  </ul>
+  <p>To exercise any of these rights, email us at <a href="mailto:luungocquang2002@gmail.com">luungocquang2002@gmail.com</a>. We will respond within 7 days.</p>
+
+  <h2>9. Children's Privacy</h2>
+  <p>Screen Translator is not directed at children under the age of 13. We do not knowingly collect personal data from children. If you believe a child has provided us with personal data, please contact us and we will delete it immediately.</p>
+
+  <h2>10. Security</h2>
+  <p>We take reasonable measures to protect your data including:</p>
+  <ul>
+    <li>All data transmitted over HTTPS encryption</li>
+    <li>API key authentication on all backend endpoints</li>
+    <li>Row Level Security (RLS) enabled on our database</li>
+    <li>Rate limiting to prevent unauthorized access</li>
+  </ul>
+
+  <h2>11. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. We will notify users of significant changes by updating the "Last updated" date at the top of this page. Continued use of the extension after changes constitutes acceptance of the updated policy.</p>
+
+  <h2>12. Contact Us</h2>
+  <div class="contact-box">
+    <h3>Privacy questions?</h3>
+    <p>Email us at <a href="mailto:luungocquang2002@gmail.com">luungocquang2002@gmail.com</a><br/>We respond within 7 days.</p>
+  </div>
+</div>
+
+<footer>
+  <p style="margin-bottom:12px">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+    <a href="refund.html">Refund Policy</a>
+    <a href="mailto:luungocquang2002@gmail.com">Contact</a>
+  </p>
+  <p>© 2026 Screen Translator. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
